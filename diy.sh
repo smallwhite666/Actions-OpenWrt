@@ -12,6 +12,7 @@ sed -i 's/Openwrt/Kyara/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 git clone https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/vernesong/OpenClash package/clash
 git clone https://github.com/Lienol/openwrt-package package/openwrt-package
 ./scripts/feeds update -a
 ./scripts/feeds install -a
