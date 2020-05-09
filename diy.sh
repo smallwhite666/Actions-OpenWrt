@@ -13,3 +13,6 @@ git clone https://github.com/Lienol/openwrt-package package/openwrt-package
 git clone https://github.com/fw876/helloworld package/SSR_Plus+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
+# Update Luci theme argon  
+rm -rf package/lean/luci-theme-argon  
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
