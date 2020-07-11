@@ -17,4 +17,3 @@
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/Lienol/openwrt-package package/openwrt-package
 git clone https://github.com/fw876/helloworld package/SSR_Plus+
-git clone https://github.com/vernesong/OpenClash/tree/master package/luci-app-openclash
