@@ -15,6 +15,6 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+#git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/Lienol/openwrt-package package/openwrt-package
 git clone https://github.com/jerrykuku/luci-app-vssr package/SSR_Plus+
