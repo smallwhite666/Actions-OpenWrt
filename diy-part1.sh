@@ -18,4 +18,5 @@
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/Lienol/openwrt-package package/openwrt-package
 #git clone https://github.com/jerrykuku/luci-app-vssr package/SSR_Plus
-git clone https://github.com/kenzok8/openwrt-packages package/openwrt-package
+git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
+git clone https://github.com/kenzok8/small package/small
