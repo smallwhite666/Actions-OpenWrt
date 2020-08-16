@@ -22,4 +22,3 @@ git clone https://github.com/kenzok8/openwrt-packages.git                       
 git clone https://github.com/kenzok8/small.git                                                                                package/small
 #git clone https://github.com/fw876/helloworld.git                                                                             package/helloworld
 #git clone https://github.com/vernesong/OpenClash.git                                                                          package/openclash
-svn co https://github.com/project-openwrt/openwrt/trunk/package/lean/luci-app-turboacc package/turboacc
