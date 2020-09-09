@@ -16,7 +16,7 @@ on:
     branches:
       - master
     paths:
-      - '.config'
+      - 'r619ac.config'
   watch:
    types: started
 
