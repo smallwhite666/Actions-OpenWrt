@@ -17,8 +17,8 @@ on:
       - master
     paths:
       - 'r619ac.config'
-  watch:
-   types: started
+#  watch:
+ #  types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/openwrt
