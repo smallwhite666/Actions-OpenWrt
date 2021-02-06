@@ -20,7 +20,7 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/syb999/openwrt-15.05
+  REPO_URL: https://github.com/syb999/openwrt-19.07.1
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: r619ac.config
