@@ -20,7 +20,7 @@
 #git clone https://github.com/kenzok8/openwrt-packages.git                                                                     package/kenzok8
 #git clone https://github.com/kenzok8/small.git                                                                                package/small
 git clone https://github.com/siropboy/sirpdboy-package.git                                                                     package/sirpdboy-package
-#git clone https://github.com/fw876/helloworld.git                                                                             package/helloworld
+git clone https://github.com/fw876/helloworld.git                                                                             package/helloworld
 #git clone https://github.com/vernesong/OpenClash.git                                                                          package/openclash
 #git clone https://github.com/xiaorouji/openwrt-passwall.git                                                                    package/passwall
 #git clone https://github.com/jerrykuku/luci-app-vssr.git
