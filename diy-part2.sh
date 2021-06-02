@@ -11,8 +11,8 @@
 sed -i 's/192.168.1.1/192.168.123.1/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/SmallWhite/g' package/base-files/files/bin/config_generate
 # 删除默认argon主题，并下载新argon主题
-#rm -rf ./package/lean/luci-theme-argon
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git   package/lean/luci-theme-argon
+rm -rf ./package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git   package/lean/luci-theme-argon
 # 设置密码为空（安装固件时无需密码登陆，然后自己修改想要的密码）
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
 # 修改想要的root密码
