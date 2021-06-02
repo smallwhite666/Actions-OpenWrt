@@ -22,8 +22,8 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/467815891a/openwrt
+  REPO_BRANCH: 21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: cr660x.config
   DIY_P1_SH: diy-part1.sh
