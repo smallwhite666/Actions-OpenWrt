@@ -20,7 +20,7 @@
 #git clone https://github.com/kenzok8/openwrt-packages.git                                                                     package/kenzok8
 #git clone https://github.com/kenzok8/small.git                                                                                package/small
 rm -rf ./package/lean/luci-app-netdata
-git clone https://github.com/siropboy/sirpdboy-package.git                                                                     package/sirpdboy-package
+git clone https://github.com/sirpdboy/sirpdboy-package.git                                                                     package/sirpdboy-package
 git clone https://github.com/fw876/helloworld.git                                                                             package/helloworld
 #git clone https://github.com/vernesong/OpenClash.git                                                                          package/openclash
 #git clone https://github.com/xiaorouji/openwrt-passwall.git                                                                    package/passwall
