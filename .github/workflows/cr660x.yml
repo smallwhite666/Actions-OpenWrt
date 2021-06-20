@@ -1,16 +1,14 @@
-#	
+#
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-# https://github.com/P3TERX/Actions-Immortalwrt
-# Description: Build Immortalwrt using GitHub Actions
+# https://github.com/P3TERX/Actions-OpenWrt
+# Description: Build OpenWrt using GitHub Actions
 #
 
-
-name: Build cr660x openwrt
-
+name: Build OpenWrt
 
 on:
   repository_dispatch:
@@ -20,12 +18,10 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-#  schedule:
-#    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/AngelaCooljx/immortalwrt
+  REPO_BRANCH: openwrt-18.06-k5.4
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: cr660x.config
   DIY_P1_SH: diy-part1.sh
