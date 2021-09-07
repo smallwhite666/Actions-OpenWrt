@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: build r619ac 111 openwrt
+name: build cr6606 openwrt
 
 on:
   repository_dispatch:
