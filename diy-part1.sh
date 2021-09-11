@@ -5,8 +5,8 @@ echo "佛祖保佑，编译必成"
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome                                                               package/luci-app-adguardhome
 #git clone https://github.com/Lienol/openwrt-package.git                                                                       package/openwrt-package
-git clone https://github.com/kenzok8/openwrt-packages.git                                                                     package/kenzok8
-git clone https://github.com/kenzok8/small.git                                                                                package/small
+##git clone https://github.com/kenzok8/openwrt-packages.git                                                                     package/kenzok8
+##git clone https://github.com/kenzok8/small.git                                                                                package/small
 rm -rf ./package/lean/luci-app-netdata
 git clone https://github.com/sirpdboy/luci-app-netdata                                                                        package/lean/luci-app-netdata
 #git clone https://github.com/sirpdboy/sirpdboy-package.git                                                                     package/sirpdboy-package
